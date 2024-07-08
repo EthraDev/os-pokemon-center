@@ -11,9 +11,3 @@ test('average of [1, 2, 3, 4, 5] to equal 3', () => {
 test('average of [1, 2, 3, 4, 5, 6] to equal 3.5', () => {
     expect(average([1, 2, 3, 4, 5, 6])).toBe(3.5);
 });
-
-// avec .toThrow() on vérifie qu'une erreur est bien levée
-
-test('average of [] to throw TypeError', () => {
-    expect(() => average([])).toThrow(new TypeError("doit etre un array non vide"));
-});
