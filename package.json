@@ -1,0 +1,29 @@
+{
+  "name": "os-pokemon-center",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthraDev/os-pokemon-center.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EthraDev/os-pokemon-center/issues"
+  },
+  "homepage": "https://github.com/EthraDev/os-pokemon-center#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.6.0"
+  }
+}
